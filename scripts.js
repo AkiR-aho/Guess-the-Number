@@ -1,4 +1,4 @@
-let targetNumber = 6;
+let targetNumber = 6; //Add comments
 
 let guess = prompt("Guess number");
 guess = Number(guess);
