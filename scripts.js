@@ -1,14 +1,14 @@
-let arvattava = 6;
+let targetNumber = 6;
 
-let arvaus = prompt("Arvaa numero");
-arvaus = Number(arvaus);
+let guess = prompt("Arvaa numero");
+guess = Number(guess);
 
 let tulosLaatikko = document.getElementById("tulos");
 
-if (arvattava === arvaus) {
-    tulosLaatikko.textContent = "Oikein!";
+if (targetNumber === guess) {
+    resultBox.textContent = "Oikein!";
 }
 else {
-    tulosLaatikko.textContent = "Väärin!";
+    resultBox.textContent = "Väärin!";
 }
 
